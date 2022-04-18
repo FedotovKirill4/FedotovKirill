@@ -1,0 +1,9 @@
+let timerId = setTimeout(() => {
+}, 2000)
+clearTimeout(timerId)
+let intervalId = setInterval(() => {
+}, 2000)
+clearInterval(intervalId )
+const myFunction = () => {
+  setTimeout(myFunction, 1000)
+}
